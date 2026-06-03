@@ -5,7 +5,8 @@ while num < 0:
     precos.append(num)
 
 total_bruto = sum(precos)
-desconto, total_pago = 0
+desconto, total_pago = 0 , 0
+..............arrumar
 if len(precos) > 10:
     desconto = total_bruto*0.05
     total_pago = total_bruto - desconto
